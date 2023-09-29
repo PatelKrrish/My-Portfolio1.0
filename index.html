@@ -56,7 +56,20 @@
         }
 
         .left {
-            font-size: 1.5rem;
+            display: flex;
+            justify-content: space-between;
+            width: 11rem;
+        }
+
+        nav .left img {
+            display: flex;
+            align-items: center;
+            height: 2rem;
+            width: 2rem;
+        }
+
+        nav .left .nav-name {
+            font-size: 1.5rem
         }
 
         .firstSection {
@@ -199,7 +212,10 @@
 <body>
     <header>
         <nav>
-            <div class="left">Krrish Patel</div>
+            <div class="left">
+                <div class="nav-profile"><img src="assets/profile-pic (6).png" alt=""></div>
+                <div class="nav-name">Krrish Patel</div>
+            </div>
             <div class="right">
                 <ul>
                     <li><a href="/">Home</a></li>
@@ -220,11 +236,11 @@
                 <span id="element"></span>
                 <div class="buttons">
                     <button class="btn">Download Resume</button>
-                    <button class="btn">Visit GitHub</button>
+                    <a href="https://github.com/PatelKrrish"><button class="btn">Visit GitHub</button></a>
                 </div>
             </div>
             <div class="rightSection">
-                <img src="bg.png" alt="">
+                <img src="assets\profile-pic (1).png" alt="">
             </div>
         </section>
         <hr>
@@ -234,7 +250,7 @@
 
             <div class="box">
                 <div class="vertical">
-                    <img class="image-top" src="developer.png" alt="">
+                    <img class="image-top" src="assets/developer.png" alt="">
                     <div class="vertical-title">
                         Passed Class 10th (2020)
                     </div>
@@ -245,7 +261,7 @@
                 </div>
 
                 <div class="vertical">
-                    <img class="image-top" src="developer.png" alt="">
+                    <img class="image-top" src="assets/developer.png" alt="">
                     <div class="vertical-title">
                         Passed Class 12th (2022)
                     </div>
@@ -256,7 +272,7 @@
                 </div>
 
                 <div class="vertical">
-                    <img class="image-top" src="developer.png" alt="">
+                    <img class="image-top" src="assets/developer.png" alt="">
                     <div class="vertical-title">
                         Pursuing BCA (2022-2025)
                     </div>
@@ -267,7 +283,7 @@
                 </div>
 
                 <div class="vertical">
-                    <img class="image-top" src="developer.png" alt="">
+                    <img class="image-top" src="assets/developer.png" alt="">
                     <div class="vertical-title">
                         Marketing Intern (2023)
                     </div>
@@ -286,11 +302,11 @@
                 <h2>Krrish Patel</h2>
             </div>
             <div class="footer-second">
-                Developed with <img src="html.png" alt="" width="33px" height="30px"> and <img src="css.png" alt=""
-                    width="21px" height="26px">
+                Developed with <img src="assets/html.png" alt="HTML" width="33px" height="30px"> and <img
+                    src="assets/css.png" alt="CSS" width="21px" height="26px">
             </div>
             <div class="footer-third">
-                Hosting Partner <img src="github.png" alt="" width="70px" and height="35px">
+                Hosting Partner <img src="assets/github.png" alt="" width="70px" and height="35px">
             </div>
         </div>
         <div class="sub-footer">
