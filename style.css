@@ -110,17 +110,43 @@ nav .left .nav-name {
     color: rgb(180, 180, 180);
 }
 
-.secondSection {
+section.secondSection {
+    display: flex;
+    justify-content: space-around;
+    height: auto;
+}
+
+section.secondSection .intro h1{
+    font-size: 1.9rem;
+    display: flex;
+    justify-content: start;
+    margin-bottom: 2rem;
+}
+section.secondSection .intro p{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    width: 35rem;
+    font-size: 1rem;
+}
+
+section.secondSection img {
+    height: 20rem;
+    width: 20rem;
+    border-radius: 50%;
+}
+
+.thirdSection {
     max-width: 80vw;
     margin: auto;
     height: 80vh;
 }
 
-.secondSection h1 {
+.thirdSection h1 {
     font-size: 1.9rem;
 }
 
-.secondSection .box {
+.thirdSection .box {
     background-color: white;
     width: 78vw;
     height: 2px;
@@ -128,7 +154,7 @@ nav .left .nav-name {
     display: flex;
 }
 
-.secondSection .vertical {
+.thirdSection .vertical {
     height: 93px;
     width: 1px;
     background-color: white;
