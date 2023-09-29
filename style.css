@@ -120,23 +120,20 @@ section.secondSection .intro h1{
     font-size: 1.9rem;
     display: flex;
     justify-content: start;
-    margin-top: 3rem;
+    margin-bottom: 2rem;
 }
-
-section.secondSection .intro p {
-    display: block;
-    align-items: center;
-    justify-content: flex-end;
+section.secondSection .intro p{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
     width: 35rem;
     font-size: 1rem;
-    margin-top: 2rem;
 }
 
 section.secondSection img {
     height: 20rem;
     width: 20rem;
     border-radius: 50%;
-    margin-left: 7rem;
 }
 
 .thirdSection {
